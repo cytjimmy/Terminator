@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>data selete</title>
+		<link rel="stylesheet" href="../terminator.css" />
+		<link rel="stylesheet" href="../jquery-ui-1.12.1.custom/jquery-ui.css" />
+	</head>
+	<body>
+			<input type="button" value="time" class="dataDrop"/>
+			<div class="angle-wrapper">
+				<form>
+					<input class="angle-wrapper-option" type="button" id="All" name="All" value="All" />
+					<input class="angle-wrapper-option" type="button" id="Today" name="Today" value="Today" />
+					<input class="angle-wrapper-option" type="button" id="Yesterday" name="Yesterday" value="Yesterday" />
+					<input class="angle-wrapper-option" type="button" id="Last 7 Days" name="Last 7 Days" value="Last 7 Days" />
+					<input class="angle-wrapper-option" type="button" id="Last 30 Days" name="Last 30 Days" value="Last 30 Days" />
+					<input class="angle-wrapper-option" type="button" id="This Month" name="This Month" value="This Month" />
+					<input class="angle-wrapper-option" type="button" id="Last Month" name="Last Month" value="Last Month" />
+					<span class="beginTime">FROM</span>
+					<span class="endTime">TO</span>
+					<input id="datepicker" value="起始日期" type="text" />
+					<input id="datepicker2" value="结束日期" type="text" />
+					<input type="submit" id="submit" value="确定" />
+					<input type="button" value="取消" />
+				</form>
+			</div>
+		<script src="../jquery-3.2.1.js"></script>
+		<script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<script src="../terminator.js"></script>
+	</body>
+</html>

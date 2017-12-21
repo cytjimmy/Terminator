@@ -1,0 +1,100 @@
+/*
+ * 顶部带上小三角剪头的矩形框 200*400	
+ */
+
+.dataDrop{
+	position: relative;
+	width: 215px;
+	height: 35px;
+	border: none;
+	margin: 0 auto; 
+}
+.angle-wrapper {  
+	display: none;
+	font-family: "微软雅黑";
+    width: 210px;  
+    height: 380px;  
+    position: relative;  
+    margin: 0 0;  
+    border: 2px solid #cccccc;  
+    text-align: center;
+    font-size: 14px;
+} 
+.angle-wrapper:before {  
+    content: '';  
+    width: 0;  
+    height: 0;  
+    border: 10px solid transparent;  
+    border-bottom-color: #cccccc;  
+    position: absolute; 
+    left: 3px; 
+    top: -21px;  
+}  
+.angle-wrapper:after {  
+    content: "";  
+    width: 0;  
+    height: 0;  
+    border: 8px solid transparent;  
+    border-bottom-color: #FFFFFF;  
+    position: absolute;  
+    left: 5px; 
+    top: -16px;
+}
+.angle-wrapper input[type=button]{
+	background: rgb(244,244,244);
+	color: rgb(6,136,203);
+	text-align: left;
+	padding-left: 13px;
+	width: 92%;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	display:inline-block;
+	margin-top: 10px;
+} 
+.angle-wrapper input[type=button]:hover{
+	color: white;
+	background: rgb(6,136,203);
+}
+.angle-wrapper span{
+	display: inline-block;
+	width: 45%;
+	margin:10px 0 0 3%;
+	text-align: left;
+}
+.angle-wrapper input[type=text]{
+	display: inline-block;
+	float: left;
+	width: 35%;
+	margin-left: 4%;
+}
+.angle-wrapper input[type=submit],.angle-wrapper input[type=submit]+input{
+	width: 60px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	border-radius: 2px;
+	border: none;
+	background: rgb(41,168,226);
+	margin-left: 4%;
+	color: white;
+	font-size: 15px;
+}
+.angle-wrapper input[type=submit]+input{
+	background: rgb(175,186,193);
+}
+.angle-wrapper input[type=submit]+input:hover{
+	background: rgb(175,186,193);
+}
+.angle-wrapper p{
+	line-height: 30px;
+	height: 30px;
+}
+
+.angle-wrapper p input{
+	border: 1px solid rgb(244,244,244);
+	line-height: 25px;
+	width:90%;
+	margin: 0;
+}
